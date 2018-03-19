@@ -1,0 +1,37 @@
+package com.github.intellectualcrafters.plotsquared.plot.commands;
+
+import com.github.intellectualcrafters.plotsquared.commands.Argument;
+import com.github.intellectualcrafters.plotsquared.commands.Command;
+import com.github.intellectualcrafters.plotsquared.plot.config.C;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotPlayer;
+import com.github.intellectualcrafters.plotsquared.plot.object.RunnableVal2;
+import com.github.intellectualcrafters.plotsquared.plot.object.RunnableVal3;
+
+/**
+ * SubCommand class
+ * @see Command (Command, boolean)
+ * @Deprecated In favor of normal Command class
+ */
+public abstract class SubCommand extends Command {
+    public SubCommand() {
+        super(MainCommand.getInstance(), true);
+    }
+
+    public SubCommand(Argument... arguments) {
+        this();
+        setRequiredArguments(arguments);
+    }
+
+    @Override
+    public void execute(PlotPlayer player, String[] args, RunnableVal3<Command, Runnable, Runnable> confirm, RunnableVal2<Command, CommandResult> whenDone) {
+        onCommand(player, args);
+    }
+
+
+    public abstract boolean onCommand(PlotPlayer player, String[] args);
+
+    public boolean sendMessage(PlotPlayer player, C message, Object... args) {
+        message.send(player, args);
+        return true;
+    }
+}
