@@ -7,9 +7,10 @@ import com.intellectualcrafters.plot.util.expiry.PlotAnalysis;
 
 public class SpongeHybridUtils extends HybridUtils {
 
-    @Override
-    public void analyzeRegion(String world, RegionWrapper region, RunnableVal<PlotAnalysis> whenDone) {
-        throw new UnsupportedOperationException("NOT IMPLEMENTED YET");
-    }
-    
+  @Override
+  public void analyzeRegion(String world, RegionWrapper region,
+      RunnableVal<PlotAnalysis> whenDone) {
+    throw new UnsupportedOperationException("NOT IMPLEMENTED YET");
+  }
+
 }

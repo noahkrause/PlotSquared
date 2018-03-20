@@ -4,15 +4,17 @@ import com.github.intellectualcrafters.plotsquared.plot.object.PlotArea;
 
 public interface GeneratorWrapper<T> {
 
-    IndependentPlotGenerator getPlotGenerator();
+  IndependentPlotGenerator getPlotGenerator();
 
-    T getPlatformGenerator();
+  T getPlatformGenerator();
 
-    void augment(PlotArea area);
+  void augment(PlotArea area);
 
-    boolean isFull();
+  boolean isFull();
 
-    @Override String toString();
+  @Override
+  String toString();
 
-    @Override boolean equals(Object obj);
+  @Override
+  boolean equals(Object obj);
 }

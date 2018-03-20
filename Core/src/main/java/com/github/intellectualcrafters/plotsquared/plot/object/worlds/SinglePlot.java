@@ -9,68 +9,73 @@ import com.github.intellectualcrafters.plotsquared.plot.object.PlotArea;
 import com.github.intellectualcrafters.plotsquared.plot.object.PlotId;
 import com.github.intellectualcrafters.plotsquared.plot.object.PlotPlayer;
 import com.github.intellectualcrafters.plotsquared.plot.object.RegionWrapper;
-
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.UUID;
 
-public class SinglePlot extends Plot
-{
-    public SinglePlot(PlotArea area, PlotId id, UUID owner) {
-        super(area, id, owner);
-    }
+public class SinglePlot extends Plot {
 
-    public SinglePlot(PlotArea area, PlotId id) {
-        super(area, id);
-    }
+  private HashSet<RegionWrapper> regions;
 
-    public SinglePlot(PlotArea area, PlotId id, UUID owner, int temp) {
-        super(area, id, owner, temp);
-    }
+  {
+    regions = new HashSet<>();
+    regions.add(new RegionWrapper(Integer.MIN_VALUE, Integer.MAX_VALUE, Integer.MIN_VALUE,
+        Integer.MAX_VALUE));
+  }
 
-    public SinglePlot(PlotId id, UUID owner, HashSet<UUID> trusted, HashSet<UUID> members, HashSet<UUID> denied, String alias, BlockLoc position, Collection<Flag> flags, PlotArea area, boolean[] merged, long timestamp, int temp) {
-        super(id, owner, trusted, members, denied, alias, position, flags, area, merged, timestamp, temp);
-    }
+  public SinglePlot(PlotArea area, PlotId id, UUID owner) {
+    super(area, id, owner);
+  }
 
-    @Override
-    public String getWorldName() {
-        return getId().toCommaSeparatedString();
-    }
+  public SinglePlot(PlotArea area, PlotId id) {
+    super(area, id);
+  }
 
-    @Override
-    public SinglePlotArea getArea() {
-        return (SinglePlotArea) super.getArea();
-    }
+  public SinglePlot(PlotArea area, PlotId id, UUID owner, int temp) {
+    super(area, id, owner, temp);
+  }
 
-    public boolean teleportPlayer(final PlotPlayer player) {
-        if (isLoaded()) {
-            return super.teleportPlayer(player);
-        } else {
-            C.NOT_LOADED.send(player);
-            return false;
-        }
-    }
+  public SinglePlot(PlotId id, UUID owner, HashSet<UUID> trusted, HashSet<UUID> members,
+      HashSet<UUID> denied, String alias, BlockLoc position, Collection<Flag> flags, PlotArea area,
+      boolean[] merged, long timestamp, int temp) {
+    super(id, owner, trusted, members, denied, alias, position, flags, area, merged, timestamp,
+        temp);
+  }
 
-    @Override
-    public Location getSide() {
-        return getCenter();
-    }
+  @Override
+  public String getWorldName() {
+    return getId().toCommaSeparatedString();
+  }
 
-    @Override
-    protected boolean isLoaded() {
-        getArea().loadWorld(getId());
-        return super.isLoaded();
-    }
-    private HashSet<RegionWrapper> regions;
-    {
-        regions = new HashSet<>();
-        regions.add(new RegionWrapper(Integer.MIN_VALUE, Integer.MAX_VALUE, Integer.MIN_VALUE, Integer.MAX_VALUE));
-    }
+  @Override
+  public SinglePlotArea getArea() {
+    return (SinglePlotArea) super.getArea();
+  }
 
-    @Override
-    public HashSet<RegionWrapper> getRegions() {
-        return regions;
+  public boolean teleportPlayer(final PlotPlayer player) {
+    if (isLoaded()) {
+      return super.teleportPlayer(player);
+    } else {
+      C.NOT_LOADED.send(player);
+      return false;
     }
+  }
 
-    // getCenter getSide getHome getDefaultHome getBiome
+  @Override
+  public Location getSide() {
+    return getCenter();
+  }
+
+  @Override
+  protected boolean isLoaded() {
+    getArea().loadWorld(getId());
+    return super.isLoaded();
+  }
+
+  @Override
+  public HashSet<RegionWrapper> getRegions() {
+    return regions;
+  }
+
+  // getCenter getSide getHome getDefaultHome getBiome
 }

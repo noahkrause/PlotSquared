@@ -4,9 +4,9 @@ import org.bukkit.entity.Horse;
 
 class HorseStats {
 
-    double jump;
-    boolean chest;
-    Horse.Variant variant;
-    Horse.Color color;
-    Horse.Style style;
+  double jump;
+  boolean chest;
+  Horse.Variant variant;
+  Horse.Color color;
+  Horse.Style style;
 }

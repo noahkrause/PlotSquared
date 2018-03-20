@@ -1,30 +1,34 @@
 package com.plotsquared.sponge.object;
 
 import com.intellectualcrafters.plot.object.OfflinePlotPlayer;
-import org.spongepowered.api.entity.living.player.User;
-
 import java.util.UUID;
+import org.spongepowered.api.entity.living.player.User;
 
 public class SpongeOfflinePlayer implements OfflinePlotPlayer {
 
-    private User user;
+  private User user;
 
-    public SpongeOfflinePlayer(User user) {
-        this.user = user;
-    }
-    @Override public UUID getUUID() {
-        return user.getUniqueId();
-    }
+  public SpongeOfflinePlayer(User user) {
+    this.user = user;
+  }
 
-    @Override public long getLastPlayed() {
-        return 0; //todo
-    }
+  @Override
+  public UUID getUUID() {
+    return user.getUniqueId();
+  }
 
-    @Override public boolean isOnline() {
-        return user.isOnline();
-    }
+  @Override
+  public long getLastPlayed() {
+    return 0; //todo
+  }
 
-    @Override public String getName() {
-        return user.getName();
-    }
+  @Override
+  public boolean isOnline() {
+    return user.isOnline();
+  }
+
+  @Override
+  public String getName() {
+    return user.getName();
+  }
 }

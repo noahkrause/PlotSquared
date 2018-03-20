@@ -29,6 +29,21 @@ If you prefer to use maven, a `pom.xml` file is provided for working with the Bu
 # Contributing
 Feel free to contribute, if you feel like you can improve the plugin in any way. Make sure to test your code before sending it away from us, as committing broken code will block you from future contribution.
 
+### Code Style
+
+If you are planning to commit any changes to the project,
+it would be highly appreciated if you were to follow the 
+project code style conventions. To make this easier we have
+provided settings that can be imported into your IDE.
+
+**Eclipse:**
+`Window > Preferences > Java > Code Style > Formatter`
+Press `Import` and select `...path/to/project/code_style_eclipse.xml`
+
+**IntelliJ:**
+`File > Settings > Editor > Code Style`. Next to "Scheme" there is a cog wheel, press that and then
+`Import Scheme > IntelliJ IDEA Code Style XML` and then select `..path/to/project/code_style_intellij.xml`
+
 # Official Addons
 * [Plot2Dynmap](http://www.spigotmc.org/resources/plot2dynmap.1292/)
 * [AdvPlots](http://www.spigotmc.org/resources/advplots-%CE%B2.1500/)

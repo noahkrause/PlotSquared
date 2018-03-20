@@ -4,6 +4,6 @@ import org.bukkit.entity.AnimalTamer;
 
 class TameableStats {
 
-    AnimalTamer owner;
-    boolean tamed;
+  AnimalTamer owner;
+  boolean tamed;
 }

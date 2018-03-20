@@ -17,44 +17,45 @@ import org.bukkit.metadata.FixedMetadataValue;
 import org.bukkit.plugin.Plugin;
 
 public class EntitySpawnListener implements Listener {
-    @EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = true)
-    public void creatureSpawnEvent(EntitySpawnEvent event) {
-        Entity entity = event.getEntity();
-        Location location = BukkitUtil.getLocation(entity.getLocation());
-        PlotArea area = location.getPlotArea();
-        if (area == null) {
-            return;
-        }
-        Plot plot = area.getOwnedPlotAbs(location);
-        if (plot == null) {
-            if (!area.MOB_SPAWNING) {
-                EntityType type = entity.getType();
-                switch (type) {
-                    case DROPPED_ITEM:
-                        if (Settings.Enabled_Components.KILL_ROAD_MOBS) {
-                            break;
-                        }
-                    case PLAYER:
-                        return;
-                }
-                if (type.isAlive() || !area.MISC_SPAWN_UNOWNED) {
-                    event.setCancelled(true);
-                }
+
+  @EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = true)
+  public void creatureSpawnEvent(EntitySpawnEvent event) {
+    Entity entity = event.getEntity();
+    Location location = BukkitUtil.getLocation(entity.getLocation());
+    PlotArea area = location.getPlotArea();
+    if (area == null) {
+      return;
+    }
+    Plot plot = area.getOwnedPlotAbs(location);
+    if (plot == null) {
+      if (!area.MOB_SPAWNING) {
+        EntityType type = entity.getType();
+        switch (type) {
+          case DROPPED_ITEM:
+            if (Settings.Enabled_Components.KILL_ROAD_MOBS) {
+              break;
             }
+          case PLAYER:
             return;
         }
-        if (Settings.Done.RESTRICT_BUILDING && plot.hasFlag(Flags.DONE)) {
-            event.setCancelled(true);
+        if (type.isAlive() || !area.MISC_SPAWN_UNOWNED) {
+          event.setCancelled(true);
         }
-        switch (entity.getType()) {
-            case ENDER_CRYSTAL:
-                if (PlayerEvents.checkEntity(entity, plot)) {
-                    event.setCancelled(true);
-                }
-            case SHULKER:
-            	if(!entity.hasMetadata("plot")) {
-            		entity.setMetadata("plot", new FixedMetadataValue((Plugin) PS.get().IMP, plot.getId()));
-            	}
+      }
+      return;
+    }
+    if (Settings.Done.RESTRICT_BUILDING && plot.hasFlag(Flags.DONE)) {
+      event.setCancelled(true);
+    }
+    switch (entity.getType()) {
+      case ENDER_CRYSTAL:
+        if (PlayerEvents.checkEntity(entity, plot)) {
+          event.setCancelled(true);
+        }
+      case SHULKER:
+        if (!entity.hasMetadata("plot")) {
+          entity.setMetadata("plot", new FixedMetadataValue((Plugin) PS.get().IMP, plot.getId()));
         }
     }
+  }
 }

@@ -4,19 +4,20 @@ import com.github.intellectualcrafters.plotsquared.plot.object.PlotMessage;
 import com.github.intellectualcrafters.plotsquared.plot.object.PlotPlayer;
 
 public abstract class ChatManager<T> {
-    public static ChatManager<?> manager;
-    
-    public abstract T builder();
 
-    public abstract void color(PlotMessage message, String color);
+  public static ChatManager<?> manager;
 
-    public abstract void tooltip(PlotMessage message, PlotMessage... tooltip);
+  public abstract T builder();
 
-    public abstract void command(PlotMessage message, String command);
+  public abstract void color(PlotMessage message, String color);
 
-    public abstract void text(PlotMessage message, String text);
+  public abstract void tooltip(PlotMessage message, PlotMessage... tooltip);
 
-    public abstract void send(PlotMessage plotMessage, PlotPlayer player);
+  public abstract void command(PlotMessage message, String command);
 
-    public abstract void suggest(PlotMessage plotMessage, String command);
+  public abstract void text(PlotMessage message, String text);
+
+  public abstract void send(PlotMessage plotMessage, PlotPlayer player);
+
+  public abstract void suggest(PlotMessage plotMessage, String command);
 }

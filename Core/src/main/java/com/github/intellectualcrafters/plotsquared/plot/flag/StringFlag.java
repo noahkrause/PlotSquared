@@ -3,19 +3,22 @@ package com.github.intellectualcrafters.plotsquared.plot.flag;
 
 public class StringFlag extends Flag<String> {
 
-    public StringFlag(String name) {
-        super(name);
-    }
+  public StringFlag(String name) {
+    super(name);
+  }
 
-    @Override public String valueToString(Object value) {
-        return value.toString();
-    }
+  @Override
+  public String valueToString(Object value) {
+    return value.toString();
+  }
 
-    @Override public String parseValue(String value) {
-        return value;
-    }
+  @Override
+  public String parseValue(String value) {
+    return value;
+  }
 
-    @Override public String getValueDescription() {
-        return "Flag value must be alphanumeric. Some special characters are allowed.";
-    }
+  @Override
+  public String getValueDescription() {
+    return "Flag value must be alphanumeric. Some special characters are allowed.";
+  }
 }

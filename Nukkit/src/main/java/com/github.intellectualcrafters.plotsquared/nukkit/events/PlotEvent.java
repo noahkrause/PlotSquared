@@ -5,14 +5,14 @@ import com.intellectualcrafters.plot.object.Plot;
 
 public abstract class PlotEvent extends Event {
 
-    private final Plot plot;
+  private final Plot plot;
 
-    public PlotEvent(Plot plot) {
-        this.plot = plot;
-    }
+  public PlotEvent(Plot plot) {
+    this.plot = plot;
+  }
 
-    public final Plot getPlot() {
-        return this.plot;
-    }
+  public final Plot getPlot() {
+    return this.plot;
+  }
 
 }

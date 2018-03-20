@@ -8,12 +8,13 @@ import com.intellectualcrafters.plot.util.expiry.PlotAnalysis;
 
 public class NukkitHybridUtils extends HybridUtils {
 
-    public NukkitHybridUtils() {
-        PS.debug("Not implemented: NukkitHybridUtils");
-    }
+  public NukkitHybridUtils() {
+    PS.debug("Not implemented: NukkitHybridUtils");
+  }
 
-    @Override
-    public void analyzeRegion(final String world, final RegionWrapper region, final RunnableVal<PlotAnalysis> whenDone) {
-        throw new UnsupportedOperationException("NOT IMPLEMENTED YET");
-    }
+  @Override
+  public void analyzeRegion(final String world, final RegionWrapper region,
+      final RunnableVal<PlotAnalysis> whenDone) {
+    throw new UnsupportedOperationException("NOT IMPLEMENTED YET");
+  }
 }

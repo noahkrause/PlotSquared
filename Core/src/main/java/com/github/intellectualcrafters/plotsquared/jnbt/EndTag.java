@@ -5,18 +5,19 @@ package com.github.intellectualcrafters.plotsquared.jnbt;
  */
 public final class EndTag extends Tag {
 
-    /**
-     * Creates the tag.
-     */
-    public EndTag() {}
+  /**
+   * Creates the tag.
+   */
+  public EndTag() {
+  }
 
-    @Override
-    public Object getValue() {
-        return null;
-    }
+  @Override
+  public Object getValue() {
+    return null;
+  }
 
-    @Override
-    public String toString() {
-        return "TAG_End";
-    }
+  @Override
+  public String toString() {
+    return "TAG_End";
+  }
 }

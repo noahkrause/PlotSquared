@@ -10,19 +10,20 @@ import com.intellectualcrafters.plot.object.ConsolePlayer;
 
 public class NukkitCommand extends Command {
 
-    public NukkitCommand(String cmd, String[] aliases) {
-        super(cmd, "Plot command", "/plot", aliases);
-    }
+  public NukkitCommand(String cmd, String[] aliases) {
+    super(cmd, "Plot command", "/plot", aliases);
+  }
 
 
-    @Override
-    public boolean execute(CommandSender commandSender, String commandLabel, String[] args) {
-        if (commandSender instanceof Player) {
-            return MainCommand.onCommand(NukkitUtil.getPlayer((Player) commandSender), args);
-        }
-        if (commandSender instanceof ConsoleCommandSender || commandSender instanceof RemoteConsoleCommandSender) {
-            return MainCommand.onCommand(ConsolePlayer.getConsole(), args);
-        }
-        return false;
+  @Override
+  public boolean execute(CommandSender commandSender, String commandLabel, String[] args) {
+    if (commandSender instanceof Player) {
+      return MainCommand.onCommand(NukkitUtil.getPlayer((Player) commandSender), args);
     }
+    if (commandSender instanceof ConsoleCommandSender
+        || commandSender instanceof RemoteConsoleCommandSender) {
+      return MainCommand.onCommand(ConsolePlayer.getConsole(), args);
+    }
+    return false;
+  }
 }
