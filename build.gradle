@@ -53,7 +53,8 @@ subprojects {
             exclude(module: 'mockito-core')
             exclude(module: 'dummypermscompat')
         }
-        compile 'com.google.guava:guava:10.0'
+        compileOnly 'org.projectlombok:lombok:1.16.18'
+        compile 'com.google.guava:guava:24.1-jre'
     }
     clean{
         delete file("../target")
