@@ -1,6 +1,6 @@
-package com.plotsquared.sponge.events;
+package com.github.intellectualcrafters.plotsquared.sponge.events;
 
-import com.intellectualcrafters.plot.object.PlotId;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotId;
 import java.util.ArrayList;
 import org.spongepowered.api.event.Cancellable;
 import org.spongepowered.api.event.cause.Cause;

@@ -1,10 +1,10 @@
-package com.plotsquared.nukkit.util;
+package com.github.intellectualcrafters.plotsquared.nukkit.util;
 
 import cn.nukkit.plugin.Plugin;
 import cn.nukkit.plugin.PluginDescription;
 import cn.nukkit.utils.LogLevel;
-import com.intellectualcrafters.plot.PS;
-import com.intellectualcrafters.plot.util.TaskManager;
+import com.github.intellectualcrafters.plotsquared.plot.PS;
+import com.github.intellectualcrafters.plotsquared.plot.util.TaskManager;
 import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
 import java.io.File;

@@ -1,10 +1,10 @@
-package com.plotsquared.nukkit.events;
+package com.github.intellectualcrafters.plotsquared.nukkit.events;
 
 import cn.nukkit.Player;
 import cn.nukkit.event.Cancellable;
 import cn.nukkit.event.HandlerList;
 import cn.nukkit.event.player.PlayerEvent;
-import com.intellectualcrafters.plot.object.Plot;
+import com.github.intellectualcrafters.plotsquared.plot.object.Plot;
 
 public class PlayerClaimPlotEvent extends PlayerEvent implements Cancellable {
 

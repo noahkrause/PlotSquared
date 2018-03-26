@@ -1,4 +1,4 @@
-package com.plotsquared.nukkit;
+package com.github.intellectualcrafters.plotsquared.nukkit;
 
 import cn.nukkit.Nukkit;
 import cn.nukkit.OfflinePlayer;
@@ -12,24 +12,24 @@ import cn.nukkit.metadata.MetadataValue;
 import cn.nukkit.plugin.Plugin;
 import cn.nukkit.plugin.PluginBase;
 import com.intellectualcrafters.configuration.ConfigurationSection;
-import com.intellectualcrafters.plot.IPlotMain;
-import com.intellectualcrafters.plot.PS;
-import com.intellectualcrafters.plot.config.C;
-import com.intellectualcrafters.plot.config.ConfigurationNode;
-import com.intellectualcrafters.plot.config.Settings;
-import com.intellectualcrafters.plot.object.chat.PlainChatManager;
-import com.intellectualcrafters.plot.object.worlds.PlotAreaManager;
-import com.intellectualcrafters.plot.object.worlds.SinglePlotArea;
-import com.intellectualcrafters.plot.object.worlds.SinglePlotAreaManager;
-import com.intellectualcrafters.plot.util.block.QueueProvider;
-import com.plotsquared.nukkit.generator.NukkitPlotGenerator;
-import com.plotsquared.nukkit.listeners.PlayerEvents;
-import com.plotsquared.nukkit.listeners.WorldEvents;
-import com.plotsquared.nukkit.util.*;
-import com.plotsquared.nukkit.util.block.NukkitHybridGen;
-import com.plotsquared.nukkit.util.block.NukkitLocalQueue;
-import com.plotsquared.nukkit.uuid.FileUUIDHandler;
-import com.plotsquared.nukkit.uuid.LowerOfflineUUIDWrapper;
+import com.github.intellectualcrafters.plotsquared.plot.IPlotMain;
+import com.github.intellectualcrafters.plotsquared.plot.PS;
+import com.github.intellectualcrafters.plotsquared.plot.config.C;
+import com.github.intellectualcrafters.plotsquared.plot.config.ConfigurationNode;
+import com.github.intellectualcrafters.plotsquared.plot.config.Settings;
+import com.github.intellectualcrafters.plotsquared.plot.object.chat.PlainChatManager;
+import com.github.intellectualcrafters.plotsquared.plot.object.worlds.PlotAreaManager;
+import com.github.intellectualcrafters.plotsquared.plot.object.worlds.SinglePlotArea;
+import com.github.intellectualcrafters.plotsquared.plot.object.worlds.SinglePlotAreaManager;
+import com.github.intellectualcrafters.plotsquared.plot.util.block.QueueProvider;
+import com.github.intellectualcrafters.plotsquared.nukkit.generator.NukkitPlotGenerator;
+import com.github.intellectualcrafters.plotsquared.nukkit.listeners.PlayerEvents;
+import com.github.intellectualcrafters.plotsquared.nukkit.listeners.WorldEvents;
+import com.github.intellectualcrafters.plotsquared.nukkit.util.*;
+import com.github.intellectualcrafters.plotsquared.nukkit.util.block.NukkitHybridGen;
+import com.github.intellectualcrafters.plotsquared.nukkit.util.block.NukkitLocalQueue;
+import com.github.intellectualcrafters.plotsquared.nukkit.uuid.FileUUIDHandler;
+import com.github.intellectualcrafters.plotsquared.nukkit.uuid.LowerOfflineUUIDWrapper;
 import com.sk89q.worldedit.WorldEdit;
 import java.io.File;
 import java.lang.reflect.Field;
@@ -215,7 +215,7 @@ public final class NukkitMain extends PluginBase implements Listener, IPlotMain 
                 if (entity instanceof Player) {
                   continue;
                 }
-                com.intellectualcrafters.plot.object.Location location = NukkitUtil
+                com.github.intellectualcrafters.plotsquared.plot.object.Location location = NukkitUtil
                     .getLocation(entity.getLocation());
                 Plot plot = location.getPlot();
                 if (plot == null) {

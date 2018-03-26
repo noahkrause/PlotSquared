@@ -1,11 +1,11 @@
-package com.plotsquared.sponge.util;
+package com.github.intellectualcrafters.plotsquared.sponge.util;
 
-import com.intellectualcrafters.plot.object.PlotInventory;
-import com.intellectualcrafters.plot.object.PlotItemStack;
-import com.intellectualcrafters.plot.object.PlotPlayer;
-import com.intellectualcrafters.plot.util.InventoryUtil;
-import com.plotsquared.sponge.SpongeMain;
-import com.plotsquared.sponge.object.SpongePlayer;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotInventory;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotItemStack;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotPlayer;
+import com.github.intellectualcrafters.plotsquared.plot.util.InventoryUtil;
+import com.github.intellectualcrafters.plotsquared.sponge.SpongeMain;
+import com.github.intellectualcrafters.plotsquared.sponge.object.SpongePlayer;
 import java.util.ArrayList;
 import org.spongepowered.api.entity.living.player.Player;
 import org.spongepowered.api.item.ItemType;

@@ -32,7 +32,7 @@ shadowJar {
     dependencies {
         include(dependency(':Core'))
     }
-    relocate('org.mcstats', 'com.plotsquared.stats')
+    relocate('org.mcstats', 'com.github.intellectualcrafters.plotsquared.stats')
     archiveName = "${parent.name}-${project.name}-${parent.version}.jar"
     destinationDir = file '../target'
 }

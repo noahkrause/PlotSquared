@@ -1,9 +1,9 @@
-package com.plotsquared.nukkit.util;
+package com.github.intellectualcrafters.plotsquared.nukkit.util;
 
 import cn.nukkit.Player;
-import com.intellectualcrafters.plot.object.PlotPlayer;
-import com.intellectualcrafters.plot.util.AbstractTitle;
-import com.plotsquared.nukkit.object.NukkitPlayer;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotPlayer;
+import com.github.intellectualcrafters.plotsquared.plot.util.AbstractTitle;
+import com.github.intellectualcrafters.plotsquared.nukkit.object.NukkitPlayer;
 
 public class NukkitTitleUtil extends AbstractTitle {
 

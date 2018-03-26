@@ -1,11 +1,11 @@
-package com.plotsquared.sponge.uuid;
+package com.github.intellectualcrafters.plotsquared.sponge.uuid;
 
-import com.intellectualcrafters.plot.object.RunnableVal;
-import com.intellectualcrafters.plot.object.StringWrapper;
-import com.intellectualcrafters.plot.util.TaskManager;
-import com.intellectualcrafters.plot.util.UUIDHandlerImplementation;
-import com.intellectualcrafters.plot.uuid.UUIDWrapper;
-import com.plotsquared.sponge.SpongeMain;
+import com.github.intellectualcrafters.plotsquared.plot.object.RunnableVal;
+import com.github.intellectualcrafters.plotsquared.plot.object.StringWrapper;
+import com.github.intellectualcrafters.plotsquared.plot.util.TaskManager;
+import com.github.intellectualcrafters.plotsquared.plot.util.UUIDHandlerImplementation;
+import com.github.intellectualcrafters.plotsquared.plot.uuid.UUIDWrapper;
+import com.github.intellectualcrafters.plotsquared.sponge.SpongeMain;
 import java.util.UUID;
 import org.spongepowered.api.profile.GameProfile;
 

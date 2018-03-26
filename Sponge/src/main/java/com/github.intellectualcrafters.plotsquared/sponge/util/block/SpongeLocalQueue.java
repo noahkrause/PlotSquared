@@ -1,12 +1,12 @@
-package com.plotsquared.sponge.util.block;
+package com.github.intellectualcrafters.plotsquared.sponge.util.block;
 
-import com.intellectualcrafters.plot.object.PlotBlock;
-import com.intellectualcrafters.plot.object.PseudoRandom;
-import com.intellectualcrafters.plot.util.MainUtil;
-import com.intellectualcrafters.plot.util.StringMan;
-import com.intellectualcrafters.plot.util.TaskManager;
-import com.intellectualcrafters.plot.util.block.BasicLocalBlockQueue;
-import com.plotsquared.sponge.util.SpongeUtil;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotBlock;
+import com.github.intellectualcrafters.plotsquared.plot.object.PseudoRandom;
+import com.github.intellectualcrafters.plotsquared.plot.util.MainUtil;
+import com.github.intellectualcrafters.plotsquared.plot.util.StringMan;
+import com.github.intellectualcrafters.plotsquared.plot.util.TaskManager;
+import com.github.intellectualcrafters.plotsquared.plot.util.block.BasicLocalBlockQueue;
+import com.github.intellectualcrafters.plotsquared.sponge.util.SpongeUtil;
 import java.lang.reflect.Field;
 import java.util.Arrays;
 import java.util.HashSet;

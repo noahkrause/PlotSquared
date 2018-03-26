@@ -62,7 +62,7 @@ shadowJar {
         include(dependency(':Core'))
         include dependency('net.minecrell.mcstats:statslite-sponge')
     }
-    relocate 'net.minecrell.mcstats', 'com.plotsquared.util.mcstats'
+    relocate 'net.minecrell.mcstats', 'com.github.intellectualcrafters.plotsquared.util.mcstats'
     archiveName = "${parent.name}-${project.name}-${parent.version}.jar"
     destinationDir = file '../target'
 }

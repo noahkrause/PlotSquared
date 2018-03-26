@@ -1,9 +1,9 @@
-package com.plotsquared.nukkit.uuid;
+package com.github.intellectualcrafters.plotsquared.nukkit.uuid;
 
 import com.google.common.base.Charsets;
-import com.intellectualcrafters.plot.object.OfflinePlotPlayer;
-import com.intellectualcrafters.plot.object.PlotPlayer;
-import com.intellectualcrafters.plot.uuid.UUIDWrapper;
+import com.github.intellectualcrafters.plotsquared.plot.object.OfflinePlotPlayer;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotPlayer;
+import com.github.intellectualcrafters.plotsquared.plot.uuid.UUIDWrapper;
 import java.util.UUID;
 
 public class LowerOfflineUUIDWrapper extends UUIDWrapper {

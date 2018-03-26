@@ -1,7 +1,7 @@
-package com.plotsquared.sponge.listener;
+package com.github.intellectualcrafters.plotsquared.sponge.listener;
 
-import com.intellectualcrafters.plot.PS;
-import com.intellectualcrafters.plot.generator.GeneratorWrapper;
+import com.github.intellectualcrafters.plotsquared.plot.PS;
+import com.github.intellectualcrafters.plotsquared.plot.generator.GeneratorWrapper;
 import org.spongepowered.api.event.Listener;
 import org.spongepowered.api.event.world.LoadWorldEvent;
 import org.spongepowered.api.world.World;

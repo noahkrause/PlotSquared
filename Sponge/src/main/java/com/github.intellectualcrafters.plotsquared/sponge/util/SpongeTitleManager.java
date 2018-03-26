@@ -1,8 +1,8 @@
-package com.plotsquared.sponge.util;
+package com.github.intellectualcrafters.plotsquared.sponge.util;
 
-import com.intellectualcrafters.plot.object.PlotPlayer;
-import com.intellectualcrafters.plot.util.AbstractTitle;
-import com.plotsquared.sponge.object.SpongePlayer;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotPlayer;
+import com.github.intellectualcrafters.plotsquared.plot.util.AbstractTitle;
+import com.github.intellectualcrafters.plotsquared.sponge.object.SpongePlayer;
 import org.spongepowered.api.text.title.Title;
 
 public class SpongeTitleManager extends AbstractTitle {

@@ -1,4 +1,4 @@
-package com.plotsquared.nukkit.util;
+package com.github.intellectualcrafters.plotsquared.nukkit.util;
 
 import cn.nukkit.OfflinePlayer;
 import cn.nukkit.Player;
@@ -13,13 +13,13 @@ import cn.nukkit.level.Position;
 import cn.nukkit.level.biome.Biome;
 import cn.nukkit.level.biome.EnumBiome;
 import cn.nukkit.math.Vector3;
-import com.intellectualcrafters.plot.object.Location;
-import com.intellectualcrafters.plot.object.PlotBlock;
-import com.intellectualcrafters.plot.object.PlotPlayer;
-import com.intellectualcrafters.plot.object.RegionWrapper;
-import com.intellectualcrafters.plot.object.schematic.PlotItem;
-import com.plotsquared.nukkit.NukkitMain;
-import com.plotsquared.nukkit.object.NukkitPlayer;
+import com.github.intellectualcrafters.plotsquared.plot.object.Location;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotBlock;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotPlayer;
+import com.github.intellectualcrafters.plotsquared.plot.object.RegionWrapper;
+import com.github.intellectualcrafters.plotsquared.plot.object.schematic.PlotItem;
+import com.github.intellectualcrafters.plotsquared.nukkit.NukkitMain;
+import com.github.intellectualcrafters.plotsquared.nukkit.object.NukkitPlayer;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 

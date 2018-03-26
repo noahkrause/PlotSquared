@@ -1,4 +1,4 @@
-package com.plotsquared.nukkit.listeners;
+package com.github.intellectualcrafters.plotsquared.nukkit.listeners;
 
 import cn.nukkit.event.EventHandler;
 import cn.nukkit.event.EventPriority;
@@ -7,10 +7,10 @@ import cn.nukkit.event.level.LevelInitEvent;
 import cn.nukkit.event.level.LevelLoadEvent;
 import cn.nukkit.level.Level;
 import cn.nukkit.level.generator.Generator;
-import com.intellectualcrafters.plot.PS;
-import com.intellectualcrafters.plot.generator.GeneratorWrapper;
-import com.intellectualcrafters.plot.object.PlotArea;
-import com.plotsquared.nukkit.generator.NukkitPlotGenerator;
+import com.github.intellectualcrafters.plotsquared.plot.PS;
+import com.github.intellectualcrafters.plotsquared.plot.generator.GeneratorWrapper;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotArea;
+import com.github.intellectualcrafters.plotsquared.nukkit.generator.NukkitPlotGenerator;
 import java.util.HashMap;
 
 public class WorldEvents implements Listener {

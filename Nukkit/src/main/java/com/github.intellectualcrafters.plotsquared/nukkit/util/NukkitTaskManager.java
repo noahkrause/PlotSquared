@@ -1,8 +1,8 @@
-package com.plotsquared.nukkit.util;
+package com.github.intellectualcrafters.plotsquared.nukkit.util;
 
 import cn.nukkit.scheduler.TaskHandler;
-import com.intellectualcrafters.plot.util.TaskManager;
-import com.plotsquared.nukkit.NukkitMain;
+import com.github.intellectualcrafters.plotsquared.plot.util.TaskManager;
+import com.github.intellectualcrafters.plotsquared.nukkit.NukkitMain;
 import java.util.HashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 

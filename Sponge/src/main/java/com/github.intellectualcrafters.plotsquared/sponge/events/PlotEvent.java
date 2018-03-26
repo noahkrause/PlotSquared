@@ -1,6 +1,6 @@
-package com.plotsquared.sponge.events;
+package com.github.intellectualcrafters.plotsquared.sponge.events;
 
-import com.intellectualcrafters.plot.object.Plot;
+import com.github.intellectualcrafters.plotsquared.plot.object.Plot;
 import org.spongepowered.api.event.cause.Cause;
 import org.spongepowered.api.event.impl.AbstractEvent;
 

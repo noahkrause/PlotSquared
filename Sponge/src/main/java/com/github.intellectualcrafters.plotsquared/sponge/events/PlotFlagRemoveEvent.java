@@ -1,7 +1,7 @@
-package com.plotsquared.sponge.events;
+package com.github.intellectualcrafters.plotsquared.sponge.events;
 
-import com.intellectualcrafters.plot.flag.Flag;
-import com.intellectualcrafters.plot.object.Plot;
+import com.github.intellectualcrafters.plotsquared.plot.flag.Flag;
+import com.github.intellectualcrafters.plotsquared.plot.object.Plot;
 import org.spongepowered.api.event.Cancellable;
 
 public class PlotFlagRemoveEvent extends PlotEvent implements Cancellable {

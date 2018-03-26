@@ -1,14 +1,14 @@
-package com.plotsquared.sponge.util;
+package com.github.intellectualcrafters.plotsquared.sponge.util;
 
 import com.intellectualcrafters.configuration.ConfigurationSection;
-import com.intellectualcrafters.plot.PS;
-import com.intellectualcrafters.plot.config.ConfigurationNode;
-import com.intellectualcrafters.plot.generator.GeneratorWrapper;
-import com.intellectualcrafters.plot.object.PlotArea;
-import com.intellectualcrafters.plot.object.SetupObject;
-import com.intellectualcrafters.plot.object.worlds.SingleWorldGenerator;
-import com.intellectualcrafters.plot.util.SetupUtils;
-import com.plotsquared.sponge.generator.SpongePlotGenerator;
+import com.github.intellectualcrafters.plotsquared.plot.PS;
+import com.github.intellectualcrafters.plotsquared.plot.config.ConfigurationNode;
+import com.github.intellectualcrafters.plotsquared.plot.generator.GeneratorWrapper;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotArea;
+import com.github.intellectualcrafters.plotsquared.plot.object.SetupObject;
+import com.github.intellectualcrafters.plotsquared.plot.object.worlds.SingleWorldGenerator;
+import com.github.intellectualcrafters.plotsquared.plot.util.SetupUtils;
+import com.github.intellectualcrafters.plotsquared.sponge.generator.SpongePlotGenerator;
 import java.io.IOException;
 import java.util.Collection;
 import java.util.HashMap;

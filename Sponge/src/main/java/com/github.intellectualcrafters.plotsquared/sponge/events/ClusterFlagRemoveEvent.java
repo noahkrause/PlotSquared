@@ -1,7 +1,7 @@
-package com.plotsquared.sponge.events;
+package com.github.intellectualcrafters.plotsquared.sponge.events;
 
-import com.intellectualcrafters.plot.flag.Flag;
-import com.intellectualcrafters.plot.object.PlotCluster;
+import com.github.intellectualcrafters.plotsquared.plot.flag.Flag;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotCluster;
 import org.spongepowered.api.event.Cancellable;
 import org.spongepowered.api.event.cause.Cause;
 import org.spongepowered.api.event.impl.AbstractEvent;

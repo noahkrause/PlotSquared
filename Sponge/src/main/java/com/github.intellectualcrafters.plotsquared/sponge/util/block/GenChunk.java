@@ -1,10 +1,10 @@
-package com.plotsquared.sponge.util.block;
+package com.github.intellectualcrafters.plotsquared.sponge.util.block;
 
-import com.intellectualcrafters.plot.object.ChunkWrapper;
-import com.intellectualcrafters.plot.object.Location;
-import com.intellectualcrafters.plot.object.PlotBlock;
-import com.intellectualcrafters.plot.util.block.ScopedLocalBlockQueue;
-import com.plotsquared.sponge.util.SpongeUtil;
+import com.github.intellectualcrafters.plotsquared.plot.object.ChunkWrapper;
+import com.github.intellectualcrafters.plotsquared.plot.object.Location;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotBlock;
+import com.github.intellectualcrafters.plotsquared.plot.util.block.ScopedLocalBlockQueue;
+import com.github.intellectualcrafters.plotsquared.sponge.util.SpongeUtil;
 import org.spongepowered.api.world.biome.BiomeType;
 import org.spongepowered.api.world.extent.MutableBiomeVolume;
 import org.spongepowered.api.world.extent.MutableBlockVolume;

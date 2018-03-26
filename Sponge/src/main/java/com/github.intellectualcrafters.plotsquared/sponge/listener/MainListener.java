@@ -1,26 +1,26 @@
-package com.plotsquared.sponge.listener;
+package com.github.intellectualcrafters.plotsquared.sponge.listener;
 
 import com.github.plotsquared.listener.PlotListener;
-import com.intellectualcrafters.plot.PS;
-import com.intellectualcrafters.plot.config.C;
-import com.intellectualcrafters.plot.flag.Flags;
-import com.intellectualcrafters.plot.object.Location;
-import com.intellectualcrafters.plot.object.Plot;
-import com.intellectualcrafters.plot.object.PlotArea;
-import com.intellectualcrafters.plot.object.PlotBlock;
-import com.intellectualcrafters.plot.object.PlotId;
-import com.intellectualcrafters.plot.object.PlotPlayer;
-import com.intellectualcrafters.plot.object.StringWrapper;
-import com.intellectualcrafters.plot.util.EventUtil;
-import com.intellectualcrafters.plot.util.MainUtil;
-import com.intellectualcrafters.plot.util.MathMan;
-import com.intellectualcrafters.plot.util.Permissions;
-import com.intellectualcrafters.plot.util.StringMan;
-import com.intellectualcrafters.plot.util.TaskManager;
-import com.intellectualcrafters.plot.util.UUIDHandler;
-import com.plotsquared.sponge.SpongeMain;
-import com.plotsquared.sponge.object.SpongePlayer;
-import com.plotsquared.sponge.util.SpongeUtil;
+import com.github.intellectualcrafters.plotsquared.plot.PS;
+import com.github.intellectualcrafters.plotsquared.plot.config.C;
+import com.github.intellectualcrafters.plotsquared.plot.flag.Flags;
+import com.github.intellectualcrafters.plotsquared.plot.object.Location;
+import com.github.intellectualcrafters.plotsquared.plot.object.Plot;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotArea;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotBlock;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotId;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotPlayer;
+import com.github.intellectualcrafters.plotsquared.plot.object.StringWrapper;
+import com.github.intellectualcrafters.plotsquared.plot.util.EventUtil;
+import com.github.intellectualcrafters.plotsquared.plot.util.MainUtil;
+import com.github.intellectualcrafters.plotsquared.plot.util.MathMan;
+import com.github.intellectualcrafters.plotsquared.plot.util.Permissions;
+import com.github.intellectualcrafters.plotsquared.plot.util.StringMan;
+import com.github.intellectualcrafters.plotsquared.plot.util.TaskManager;
+import com.github.intellectualcrafters.plotsquared.plot.util.UUIDHandler;
+import com.github.intellectualcrafters.plotsquared.sponge.SpongeMain;
+import com.github.intellectualcrafters.plotsquared.sponge.object.SpongePlayer;
+import com.github.intellectualcrafters.plotsquared.sponge.util.SpongeUtil;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -274,7 +274,7 @@ public class MainListener {
     //                    return true;
     //                }
     //                org.spongepowered.api.world.Location<World> loc = relatives.get(dir);
-    //                com.intellectualcrafters.plot.object.Location plotloc = SpongeUtil.getLocation(loc.getExtent().getPluginName(), loc);
+    //                com.github.intellectualcrafters.plotsquared.plot.object.Location plotloc = SpongeUtil.getLocation(loc.getExtent().getPluginName(), loc);
     //                if (area == null) {
     //                    return true;
     //                }
@@ -289,7 +289,7 @@ public class MainListener {
     //                    return true;
     //                }
     //                org.spongepowered.api.world.Location<World> relative = loc.getRelative(dir);
-    //                com.intellectualcrafters.plot.object.Location relLoc = SpongeUtil.getLocation(relative.getExtent().getPluginName(), relative);
+    //                com.github.intellectualcrafters.plotsquared.plot.object.Location relLoc = SpongeUtil.getLocation(relative.getExtent().getPluginName(), relative);
     //                if (plot.equals(MainUtil.getPlot(relLoc))) {
     //                    return true;
     //                }

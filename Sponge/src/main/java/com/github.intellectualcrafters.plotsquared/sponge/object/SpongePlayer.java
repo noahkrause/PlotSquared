@@ -1,15 +1,15 @@
-package com.plotsquared.sponge.object;
+package com.github.intellectualcrafters.plotsquared.sponge.object;
 
 import com.flowpowered.math.vector.Vector3d;
-import com.intellectualcrafters.plot.PS;
-import com.intellectualcrafters.plot.commands.RequiredType;
-import com.intellectualcrafters.plot.object.Location;
-import com.intellectualcrafters.plot.object.PlotPlayer;
-import com.intellectualcrafters.plot.util.PlotGameMode;
-import com.intellectualcrafters.plot.util.PlotWeather;
-import com.intellectualcrafters.plot.util.StringMan;
-import com.intellectualcrafters.plot.util.UUIDHandler;
-import com.plotsquared.sponge.util.SpongeUtil;
+import com.github.intellectualcrafters.plotsquared.plot.PS;
+import com.github.intellectualcrafters.plotsquared.plot.commands.RequiredType;
+import com.github.intellectualcrafters.plotsquared.plot.object.Location;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotPlayer;
+import com.github.intellectualcrafters.plotsquared.plot.util.PlotGameMode;
+import com.github.intellectualcrafters.plotsquared.plot.util.PlotWeather;
+import com.github.intellectualcrafters.plotsquared.plot.util.StringMan;
+import com.github.intellectualcrafters.plotsquared.plot.util.UUIDHandler;
+import com.github.intellectualcrafters.plotsquared.sponge.util.SpongeUtil;
 import java.util.Optional;
 import java.util.UUID;
 import org.spongepowered.api.Sponge;

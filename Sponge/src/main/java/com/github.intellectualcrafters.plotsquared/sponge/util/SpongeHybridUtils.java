@@ -1,9 +1,9 @@
-package com.plotsquared.sponge.util;
+package com.github.intellectualcrafters.plotsquared.sponge.util;
 
-import com.intellectualcrafters.plot.generator.HybridUtils;
-import com.intellectualcrafters.plot.object.RegionWrapper;
-import com.intellectualcrafters.plot.object.RunnableVal;
-import com.intellectualcrafters.plot.util.expiry.PlotAnalysis;
+import com.github.intellectualcrafters.plotsquared.plot.generator.HybridUtils;
+import com.github.intellectualcrafters.plotsquared.plot.object.RegionWrapper;
+import com.github.intellectualcrafters.plotsquared.plot.object.RunnableVal;
+import com.github.intellectualcrafters.plotsquared.plot.util.expiry.PlotAnalysis;
 
 public class SpongeHybridUtils extends HybridUtils {
 

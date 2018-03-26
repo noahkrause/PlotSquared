@@ -1,11 +1,11 @@
-package com.plotsquared.sponge.util;
+package com.github.intellectualcrafters.plotsquared.sponge.util;
 
-import com.intellectualcrafters.plot.config.Settings;
-import com.intellectualcrafters.plot.object.ConsolePlayer;
-import com.intellectualcrafters.plot.object.PlotMessage;
-import com.intellectualcrafters.plot.object.PlotPlayer;
-import com.intellectualcrafters.plot.util.ChatManager;
-import com.plotsquared.sponge.object.SpongePlayer;
+import com.github.intellectualcrafters.plotsquared.plot.config.Settings;
+import com.github.intellectualcrafters.plotsquared.plot.object.ConsolePlayer;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotMessage;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotPlayer;
+import com.github.intellectualcrafters.plotsquared.plot.util.ChatManager;
+import com.github.intellectualcrafters.plotsquared.sponge.object.SpongePlayer;
 import java.util.List;
 import org.spongepowered.api.text.Text;
 import org.spongepowered.api.text.action.TextActions;

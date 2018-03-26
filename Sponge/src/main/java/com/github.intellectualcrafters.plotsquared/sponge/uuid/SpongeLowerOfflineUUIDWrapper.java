@@ -1,11 +1,11 @@
-package com.plotsquared.sponge.uuid;
+package com.github.intellectualcrafters.plotsquared.sponge.uuid;
 
 import com.google.common.base.Charsets;
-import com.intellectualcrafters.plot.object.OfflinePlotPlayer;
-import com.intellectualcrafters.plot.object.PlotPlayer;
-import com.intellectualcrafters.plot.util.UUIDHandler;
-import com.intellectualcrafters.plot.uuid.UUIDWrapper;
-import com.plotsquared.sponge.SpongeMain;
+import com.github.intellectualcrafters.plotsquared.plot.object.OfflinePlotPlayer;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotPlayer;
+import com.github.intellectualcrafters.plotsquared.plot.util.UUIDHandler;
+import com.github.intellectualcrafters.plotsquared.plot.uuid.UUIDWrapper;
+import com.github.intellectualcrafters.plotsquared.sponge.SpongeMain;
 import java.util.Collection;
 import java.util.UUID;
 import org.spongepowered.api.entity.living.player.Player;

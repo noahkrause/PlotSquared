@@ -1,11 +1,11 @@
-package com.plotsquared.nukkit.util.block;
+package com.github.intellectualcrafters.plotsquared.nukkit.util.block;
 
 import cn.nukkit.level.biome.Biome;
 import cn.nukkit.level.biome.EnumBiome;
 import cn.nukkit.level.format.generic.BaseFullChunk;
-import com.intellectualcrafters.plot.object.Location;
-import com.intellectualcrafters.plot.object.PlotBlock;
-import com.intellectualcrafters.plot.util.block.ScopedLocalBlockQueue;
+import com.github.intellectualcrafters.plotsquared.plot.object.Location;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotBlock;
+import com.github.intellectualcrafters.plotsquared.plot.util.block.ScopedLocalBlockQueue;
 
 public class NukkitWrappedChunk extends ScopedLocalBlockQueue {
 

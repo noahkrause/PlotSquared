@@ -1,10 +1,10 @@
-package com.plotsquared.sponge.util;
+package com.github.intellectualcrafters.plotsquared.sponge.util;
 
-import com.intellectualcrafters.plot.object.OfflinePlotPlayer;
-import com.intellectualcrafters.plot.object.PlotPlayer;
-import com.intellectualcrafters.plot.util.EconHandler;
-import com.intellectualcrafters.plot.util.UUIDHandler;
-import com.plotsquared.sponge.object.SpongePlayer;
+import com.github.intellectualcrafters.plotsquared.plot.object.OfflinePlotPlayer;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotPlayer;
+import com.github.intellectualcrafters.plotsquared.plot.util.EconHandler;
+import com.github.intellectualcrafters.plotsquared.plot.util.UUIDHandler;
+import com.github.intellectualcrafters.plotsquared.sponge.object.SpongePlayer;
 import java.math.BigDecimal;
 import java.util.Optional;
 import org.spongepowered.api.Sponge;

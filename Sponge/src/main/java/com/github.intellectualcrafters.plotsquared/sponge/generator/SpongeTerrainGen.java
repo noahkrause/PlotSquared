@@ -1,16 +1,16 @@
-package com.plotsquared.sponge.generator;
+package com.github.intellectualcrafters.plotsquared.sponge.generator;
 
 import com.flowpowered.math.vector.Vector3i;
-import com.intellectualcrafters.plot.PS;
-import com.intellectualcrafters.plot.generator.GeneratorWrapper;
-import com.intellectualcrafters.plot.generator.IndependentPlotGenerator;
-import com.intellectualcrafters.plot.object.ChunkWrapper;
-import com.intellectualcrafters.plot.object.PlotArea;
-import com.intellectualcrafters.plot.object.PseudoRandom;
-import com.intellectualcrafters.plot.util.ChunkManager;
-import com.intellectualcrafters.plot.util.MainUtil;
-import com.plotsquared.sponge.util.SpongeUtil;
-import com.plotsquared.sponge.util.block.GenChunk;
+import com.github.intellectualcrafters.plotsquared.plot.PS;
+import com.github.intellectualcrafters.plotsquared.plot.generator.GeneratorWrapper;
+import com.github.intellectualcrafters.plotsquared.plot.generator.IndependentPlotGenerator;
+import com.github.intellectualcrafters.plotsquared.plot.object.ChunkWrapper;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotArea;
+import com.github.intellectualcrafters.plotsquared.plot.object.PseudoRandom;
+import com.github.intellectualcrafters.plotsquared.plot.util.ChunkManager;
+import com.github.intellectualcrafters.plotsquared.plot.util.MainUtil;
+import com.github.intellectualcrafters.plotsquared.sponge.util.SpongeUtil;
+import com.github.intellectualcrafters.plotsquared.sponge.util.block.GenChunk;
 import org.spongepowered.api.world.World;
 import org.spongepowered.api.world.extent.ImmutableBiomeVolume;
 import org.spongepowered.api.world.extent.MutableBlockVolume;

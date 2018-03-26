@@ -1,9 +1,9 @@
-package com.plotsquared.nukkit.events;
+package com.github.intellectualcrafters.plotsquared.nukkit.events;
 
 import cn.nukkit.event.Cancellable;
 import cn.nukkit.event.HandlerList;
-import com.intellectualcrafters.plot.flag.Flag;
-import com.intellectualcrafters.plot.object.Plot;
+import com.github.intellectualcrafters.plotsquared.plot.flag.Flag;
+import com.github.intellectualcrafters.plotsquared.plot.object.Plot;
 
 /**
  * Called when a flag is removed from a plot

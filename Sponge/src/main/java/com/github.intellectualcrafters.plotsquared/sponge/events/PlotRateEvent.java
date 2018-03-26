@@ -1,8 +1,8 @@
-package com.plotsquared.sponge.events;
+package com.github.intellectualcrafters.plotsquared.sponge.events;
 
-import com.intellectualcrafters.plot.object.Plot;
-import com.intellectualcrafters.plot.object.PlotPlayer;
-import com.intellectualcrafters.plot.object.Rating;
+import com.github.intellectualcrafters.plotsquared.plot.object.Plot;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotPlayer;
+import com.github.intellectualcrafters.plotsquared.plot.object.Rating;
 
 public class PlotRateEvent extends PlotEvent {
 

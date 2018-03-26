@@ -1,4 +1,4 @@
-package com.plotsquared.nukkit.uuid;
+package com.github.intellectualcrafters.plotsquared.nukkit.uuid;
 
 import java.io.File;
 import java.io.FilenameFilter;

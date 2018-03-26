@@ -1,4 +1,4 @@
-package com.plotsquared.nukkit.object;
+package com.github.intellectualcrafters.plotsquared.nukkit.object;
 
 import cn.nukkit.Player;
 import cn.nukkit.Server;
@@ -6,15 +6,15 @@ import cn.nukkit.event.player.PlayerTeleportEvent;
 import cn.nukkit.network.protocol.LevelEventPacket;
 import cn.nukkit.plugin.RegisteredListener;
 import cn.nukkit.utils.EventException;
-import com.intellectualcrafters.plot.PS;
-import com.intellectualcrafters.plot.object.Location;
-import com.intellectualcrafters.plot.object.PlotPlayer;
-import com.intellectualcrafters.plot.util.EconHandler;
-import com.intellectualcrafters.plot.util.PlotGameMode;
-import com.intellectualcrafters.plot.util.PlotWeather;
-import com.intellectualcrafters.plot.util.StringMan;
-import com.intellectualcrafters.plot.util.UUIDHandler;
-import com.plotsquared.nukkit.util.NukkitUtil;
+import com.github.intellectualcrafters.plotsquared.plot.PS;
+import com.github.intellectualcrafters.plotsquared.plot.object.Location;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotPlayer;
+import com.github.intellectualcrafters.plotsquared.plot.util.EconHandler;
+import com.github.intellectualcrafters.plotsquared.plot.util.PlotGameMode;
+import com.github.intellectualcrafters.plotsquared.plot.util.PlotWeather;
+import com.github.intellectualcrafters.plotsquared.plot.util.StringMan;
+import com.github.intellectualcrafters.plotsquared.plot.util.UUIDHandler;
+import com.github.intellectualcrafters.plotsquared.nukkit.util.NukkitUtil;
 import java.util.Collections;
 import java.util.UUID;
 

@@ -1,7 +1,7 @@
-package com.plotsquared.nukkit.events;
+package com.github.intellectualcrafters.plotsquared.nukkit.events;
 
 import cn.nukkit.event.Event;
-import com.intellectualcrafters.plot.object.Plot;
+import com.github.intellectualcrafters.plotsquared.plot.object.Plot;
 
 public abstract class PlotEvent extends Event {
 

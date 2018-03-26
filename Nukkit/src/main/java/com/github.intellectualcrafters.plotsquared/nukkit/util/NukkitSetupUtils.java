@@ -1,17 +1,17 @@
-package com.plotsquared.nukkit.util;
+package com.github.intellectualcrafters.plotsquared.nukkit.util;
 
 import cn.nukkit.level.Level;
 import cn.nukkit.level.generator.Generator;
 import com.intellectualcrafters.configuration.ConfigurationSection;
-import com.intellectualcrafters.plot.PS;
-import com.intellectualcrafters.plot.config.ConfigurationNode;
-import com.intellectualcrafters.plot.generator.GeneratorWrapper;
-import com.intellectualcrafters.plot.object.PlotArea;
-import com.intellectualcrafters.plot.object.SetupObject;
-import com.intellectualcrafters.plot.util.SetupUtils;
-import com.plotsquared.nukkit.NukkitMain;
-import com.plotsquared.nukkit.generator.NukkitPlotGenerator;
-import com.plotsquared.nukkit.util.block.NukkitHybridGen;
+import com.github.intellectualcrafters.plotsquared.plot.PS;
+import com.github.intellectualcrafters.plotsquared.plot.config.ConfigurationNode;
+import com.github.intellectualcrafters.plotsquared.plot.generator.GeneratorWrapper;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotArea;
+import com.github.intellectualcrafters.plotsquared.plot.object.SetupObject;
+import com.github.intellectualcrafters.plotsquared.plot.util.SetupUtils;
+import com.github.intellectualcrafters.plotsquared.nukkit.NukkitMain;
+import com.github.intellectualcrafters.plotsquared.nukkit.generator.NukkitPlotGenerator;
+import com.github.intellectualcrafters.plotsquared.nukkit.util.block.NukkitHybridGen;
 import java.io.IOException;
 import java.lang.reflect.Field;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package com.plotsquared.nukkit.util.block;
+package com.github.intellectualcrafters.plotsquared.nukkit.util.block;
 
 import cn.nukkit.block.Block;
 import cn.nukkit.level.Level;
@@ -6,10 +6,10 @@ import cn.nukkit.level.biome.EnumBiome;
 import cn.nukkit.level.format.FullChunk;
 import cn.nukkit.level.format.generic.BaseFullChunk;
 import cn.nukkit.math.Vector3;
-import com.intellectualcrafters.plot.PS;
-import com.intellectualcrafters.plot.object.PlotBlock;
-import com.intellectualcrafters.plot.util.block.BasicLocalBlockQueue;
-import com.plotsquared.nukkit.NukkitMain;
+import com.github.intellectualcrafters.plotsquared.plot.PS;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotBlock;
+import com.github.intellectualcrafters.plotsquared.plot.util.block.BasicLocalBlockQueue;
+import com.github.intellectualcrafters.plotsquared.nukkit.NukkitMain;
 
 public class NukkitLocalQueue<T> extends BasicLocalBlockQueue<T> {
 

@@ -1,4 +1,4 @@
-package com.plotsquared.sponge.util;
+package com.github.intellectualcrafters.plotsquared.sponge.util;
 
 public class KillRoadMobs {
 

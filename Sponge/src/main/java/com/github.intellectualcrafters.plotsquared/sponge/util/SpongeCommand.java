@@ -1,10 +1,10 @@
-package com.plotsquared.sponge.util;
+package com.github.intellectualcrafters.plotsquared.sponge.util;
 
-import com.intellectualcrafters.plot.commands.MainCommand;
-import com.intellectualcrafters.plot.object.ConsolePlayer;
-import com.intellectualcrafters.plot.object.PlotPlayer;
-import com.intellectualcrafters.plot.util.TaskManager;
-import com.plotsquared.sponge.SpongeMain;
+import com.github.intellectualcrafters.plotsquared.plot.commands.MainCommand;
+import com.github.intellectualcrafters.plotsquared.plot.object.ConsolePlayer;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotPlayer;
+import com.github.intellectualcrafters.plotsquared.plot.util.TaskManager;
+import com.github.intellectualcrafters.plotsquared.sponge.SpongeMain;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;

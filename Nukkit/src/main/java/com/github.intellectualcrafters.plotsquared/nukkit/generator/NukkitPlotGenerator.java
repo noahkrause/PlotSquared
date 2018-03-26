@@ -1,23 +1,23 @@
-package com.plotsquared.nukkit.generator;
+package com.github.intellectualcrafters.plotsquared.nukkit.generator;
 
 import cn.nukkit.level.format.generic.BaseFullChunk;
 import cn.nukkit.level.generator.Generator;
 import cn.nukkit.math.NukkitRandom;
 import cn.nukkit.math.Vector3;
-import com.intellectualcrafters.plot.PS;
-import com.intellectualcrafters.plot.generator.GeneratorWrapper;
-import com.intellectualcrafters.plot.generator.IndependentPlotGenerator;
-import com.intellectualcrafters.plot.object.Location;
-import com.intellectualcrafters.plot.object.PlotArea;
-import com.intellectualcrafters.plot.object.PlotId;
-import com.intellectualcrafters.plot.object.PlotManager;
-import com.intellectualcrafters.plot.object.PseudoRandom;
-import com.intellectualcrafters.plot.object.SetupObject;
-import com.intellectualcrafters.plot.util.ChunkManager;
-import com.intellectualcrafters.plot.util.MainUtil;
-import com.intellectualcrafters.plot.util.block.ScopedLocalBlockQueue;
-import com.plotsquared.nukkit.util.NukkitUtil;
-import com.plotsquared.nukkit.util.block.NukkitWrappedChunk;
+import com.github.intellectualcrafters.plotsquared.plot.PS;
+import com.github.intellectualcrafters.plotsquared.plot.generator.GeneratorWrapper;
+import com.github.intellectualcrafters.plotsquared.plot.generator.IndependentPlotGenerator;
+import com.github.intellectualcrafters.plotsquared.plot.object.Location;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotArea;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotId;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotManager;
+import com.github.intellectualcrafters.plotsquared.plot.object.PseudoRandom;
+import com.github.intellectualcrafters.plotsquared.plot.object.SetupObject;
+import com.github.intellectualcrafters.plotsquared.plot.util.ChunkManager;
+import com.github.intellectualcrafters.plotsquared.plot.util.MainUtil;
+import com.github.intellectualcrafters.plotsquared.plot.util.block.ScopedLocalBlockQueue;
+import com.github.intellectualcrafters.plotsquared.nukkit.util.NukkitUtil;
+import com.github.intellectualcrafters.plotsquared.nukkit.util.block.NukkitWrappedChunk;
 import java.util.Map;
 
 public class NukkitPlotGenerator extends Generator implements GeneratorWrapper<Generator> {

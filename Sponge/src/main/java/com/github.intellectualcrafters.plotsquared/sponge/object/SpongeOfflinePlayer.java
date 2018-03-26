@@ -1,6 +1,6 @@
-package com.plotsquared.sponge.object;
+package com.github.intellectualcrafters.plotsquared.sponge.object;
 
-import com.intellectualcrafters.plot.object.OfflinePlotPlayer;
+import com.github.intellectualcrafters.plotsquared.plot.object.OfflinePlotPlayer;
 import java.util.UUID;
 import org.spongepowered.api.entity.living.player.User;
 

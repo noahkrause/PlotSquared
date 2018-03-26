@@ -1,4 +1,4 @@
-package com.plotsquared.sponge.util;
+package com.github.intellectualcrafters.plotsquared.sponge.util;
 
 /*
  * Copyright 2011-2013 Tyler Blair. All rights reserved.
@@ -29,7 +29,7 @@ package com.plotsquared.sponge.util;
  */
 
 import com.google.inject.Inject;
-import com.intellectualcrafters.plot.PS;
+import com.github.intellectualcrafters.plotsquared.plot.PS;
 import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
 import java.io.File;

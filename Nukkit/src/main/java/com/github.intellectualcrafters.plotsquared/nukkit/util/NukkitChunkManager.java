@@ -1,11 +1,11 @@
-package com.plotsquared.nukkit.util;
+package com.github.intellectualcrafters.plotsquared.nukkit.util;
 
 
-import com.intellectualcrafters.plot.PS;
-import com.intellectualcrafters.plot.object.ChunkLoc;
-import com.intellectualcrafters.plot.object.Location;
-import com.intellectualcrafters.plot.object.Plot;
-import com.intellectualcrafters.plot.util.ChunkManager;
+import com.github.intellectualcrafters.plotsquared.plot.PS;
+import com.github.intellectualcrafters.plotsquared.plot.object.ChunkLoc;
+import com.github.intellectualcrafters.plotsquared.plot.object.Location;
+import com.github.intellectualcrafters.plotsquared.plot.object.Plot;
+import com.github.intellectualcrafters.plotsquared.plot.util.ChunkManager;
 
 public class NukkitChunkManager extends ChunkManager {
 

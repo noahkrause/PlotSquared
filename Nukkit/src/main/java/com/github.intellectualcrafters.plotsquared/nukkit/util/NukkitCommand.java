@@ -1,12 +1,12 @@
-package com.plotsquared.nukkit.util;
+package com.github.intellectualcrafters.plotsquared.nukkit.util;
 
 import cn.nukkit.Player;
 import cn.nukkit.command.Command;
 import cn.nukkit.command.CommandSender;
 import cn.nukkit.command.ConsoleCommandSender;
 import cn.nukkit.command.RemoteConsoleCommandSender;
-import com.intellectualcrafters.plot.commands.MainCommand;
-import com.intellectualcrafters.plot.object.ConsolePlayer;
+import com.github.intellectualcrafters.plotsquared.plot.commands.MainCommand;
+import com.github.intellectualcrafters.plotsquared.plot.object.ConsolePlayer;
 
 public class NukkitCommand extends Command {
 

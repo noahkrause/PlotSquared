@@ -1,13 +1,13 @@
-package com.plotsquared.nukkit.generator;
+package com.github.intellectualcrafters.plotsquared.nukkit.generator;
 
 import cn.nukkit.event.EventHandler;
 import cn.nukkit.event.Listener;
 import cn.nukkit.event.level.ChunkLoadEvent;
 import cn.nukkit.level.Level;
 import cn.nukkit.level.format.FullChunk;
-import com.intellectualcrafters.plot.PS;
-import com.intellectualcrafters.plot.generator.AugmentedUtils;
-import com.plotsquared.nukkit.NukkitMain;
+import com.github.intellectualcrafters.plotsquared.plot.PS;
+import com.github.intellectualcrafters.plotsquared.plot.generator.AugmentedUtils;
+import com.github.intellectualcrafters.plotsquared.nukkit.NukkitMain;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class NukkitAugmentedGenerator implements Listener {

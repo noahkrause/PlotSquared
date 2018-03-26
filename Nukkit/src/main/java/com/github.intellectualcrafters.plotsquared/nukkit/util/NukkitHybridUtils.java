@@ -1,10 +1,10 @@
-package com.plotsquared.nukkit.util;
+package com.github.intellectualcrafters.plotsquared.nukkit.util;
 
-import com.intellectualcrafters.plot.PS;
-import com.intellectualcrafters.plot.generator.HybridUtils;
-import com.intellectualcrafters.plot.object.RegionWrapper;
-import com.intellectualcrafters.plot.object.RunnableVal;
-import com.intellectualcrafters.plot.util.expiry.PlotAnalysis;
+import com.github.intellectualcrafters.plotsquared.plot.PS;
+import com.github.intellectualcrafters.plotsquared.plot.generator.HybridUtils;
+import com.github.intellectualcrafters.plotsquared.plot.object.RegionWrapper;
+import com.github.intellectualcrafters.plotsquared.plot.object.RunnableVal;
+import com.github.intellectualcrafters.plotsquared.plot.util.expiry.PlotAnalysis;
 
 public class NukkitHybridUtils extends HybridUtils {
 

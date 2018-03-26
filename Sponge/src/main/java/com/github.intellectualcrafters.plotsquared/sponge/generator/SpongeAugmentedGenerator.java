@@ -1,10 +1,10 @@
-package com.plotsquared.sponge.generator;
+package com.github.intellectualcrafters.plotsquared.sponge.generator;
 
 import com.flowpowered.math.vector.Vector3i;
-import com.intellectualcrafters.plot.generator.AugmentedUtils;
-import com.intellectualcrafters.plot.object.PlotBlock;
-import com.intellectualcrafters.plot.util.block.DelegateLocalBlockQueue;
-import com.plotsquared.sponge.util.SpongeUtil;
+import com.github.intellectualcrafters.plotsquared.plot.generator.AugmentedUtils;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotBlock;
+import com.github.intellectualcrafters.plotsquared.plot.util.block.DelegateLocalBlockQueue;
+import com.github.intellectualcrafters.plotsquared.sponge.util.SpongeUtil;
 import java.util.List;
 import org.spongepowered.api.block.BlockState;
 import org.spongepowered.api.world.World;

@@ -1,10 +1,10 @@
-package com.plotsquared.sponge.util;
+package com.github.intellectualcrafters.plotsquared.sponge.util;
 
-import com.intellectualcrafters.plot.object.ChunkLoc;
-import com.intellectualcrafters.plot.object.Location;
-import com.intellectualcrafters.plot.object.Plot;
-import com.intellectualcrafters.plot.util.ChunkManager;
-import com.intellectualcrafters.plot.util.TaskManager;
+import com.github.intellectualcrafters.plotsquared.plot.object.ChunkLoc;
+import com.github.intellectualcrafters.plotsquared.plot.object.Location;
+import com.github.intellectualcrafters.plotsquared.plot.object.Plot;
+import com.github.intellectualcrafters.plotsquared.plot.util.ChunkManager;
+import com.github.intellectualcrafters.plotsquared.plot.util.TaskManager;
 import java.util.Optional;
 import java.util.Set;
 import java.util.function.Predicate;

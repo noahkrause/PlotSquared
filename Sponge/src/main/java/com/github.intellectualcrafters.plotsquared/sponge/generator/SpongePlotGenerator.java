@@ -1,14 +1,14 @@
-package com.plotsquared.sponge.generator;
+package com.github.intellectualcrafters.plotsquared.sponge.generator;
 
 import com.flowpowered.math.vector.Vector3i;
-import com.intellectualcrafters.plot.PS;
-import com.intellectualcrafters.plot.generator.GeneratorWrapper;
-import com.intellectualcrafters.plot.generator.IndependentPlotGenerator;
-import com.intellectualcrafters.plot.object.PlotArea;
-import com.intellectualcrafters.plot.object.PlotManager;
-import com.intellectualcrafters.plot.util.MainUtil;
-import com.intellectualcrafters.plot.util.ReflectionUtils;
-import com.plotsquared.sponge.util.SpongeUtil;
+import com.github.intellectualcrafters.plotsquared.plot.PS;
+import com.github.intellectualcrafters.plotsquared.plot.generator.GeneratorWrapper;
+import com.github.intellectualcrafters.plotsquared.plot.generator.IndependentPlotGenerator;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotArea;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotManager;
+import com.github.intellectualcrafters.plotsquared.plot.util.MainUtil;
+import com.github.intellectualcrafters.plotsquared.plot.util.ReflectionUtils;
+import com.github.intellectualcrafters.plotsquared.sponge.util.SpongeUtil;
 import java.util.ArrayList;
 import java.util.List;
 import org.spongepowered.api.data.DataContainer;

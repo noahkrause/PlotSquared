@@ -1,14 +1,14 @@
-package com.plotsquared.nukkit.util;
+package com.github.intellectualcrafters.plotsquared.nukkit.util;
 
 import cn.nukkit.inventory.PlayerInventory;
 import cn.nukkit.item.Item;
-import com.intellectualcrafters.plot.PS;
-import com.intellectualcrafters.plot.config.C;
-import com.intellectualcrafters.plot.object.PlotInventory;
-import com.intellectualcrafters.plot.object.PlotItemStack;
-import com.intellectualcrafters.plot.object.PlotPlayer;
-import com.intellectualcrafters.plot.util.InventoryUtil;
-import com.plotsquared.nukkit.object.NukkitPlayer;
+import com.github.intellectualcrafters.plotsquared.plot.PS;
+import com.github.intellectualcrafters.plotsquared.plot.config.C;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotInventory;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotItemStack;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotPlayer;
+import com.github.intellectualcrafters.plotsquared.plot.util.InventoryUtil;
+import com.github.intellectualcrafters.plotsquared.nukkit.object.NukkitPlayer;
 
 public class NukkitInventoryUtil extends InventoryUtil {
 

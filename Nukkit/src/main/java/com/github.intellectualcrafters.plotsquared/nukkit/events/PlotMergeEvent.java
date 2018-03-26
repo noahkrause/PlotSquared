@@ -1,10 +1,10 @@
-package com.plotsquared.nukkit.events;
+package com.github.intellectualcrafters.plotsquared.nukkit.events;
 
 import cn.nukkit.event.Cancellable;
 import cn.nukkit.event.HandlerList;
 import cn.nukkit.level.Level;
-import com.intellectualcrafters.plot.object.Plot;
-import com.intellectualcrafters.plot.object.PlotId;
+import com.github.intellectualcrafters.plotsquared.plot.object.Plot;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotId;
 import java.util.ArrayList;
 
 public class PlotMergeEvent extends PlotEvent implements Cancellable {

@@ -1,7 +1,7 @@
-package com.plotsquared.sponge.util;
+package com.github.intellectualcrafters.plotsquared.sponge.util;
 
-import com.intellectualcrafters.plot.util.TaskManager;
-import com.plotsquared.sponge.SpongeMain;
+import com.github.intellectualcrafters.plotsquared.plot.util.TaskManager;
+import com.github.intellectualcrafters.plotsquared.sponge.SpongeMain;
 import java.util.HashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 import org.spongepowered.api.scheduler.Task;

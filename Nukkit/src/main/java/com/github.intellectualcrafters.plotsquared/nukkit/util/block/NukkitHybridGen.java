@@ -1,9 +1,9 @@
-package com.plotsquared.nukkit.util.block;
+package com.github.intellectualcrafters.plotsquared.nukkit.util.block;
 
 import cn.nukkit.level.Level;
-import com.intellectualcrafters.plot.PS;
-import com.plotsquared.nukkit.NukkitMain;
-import com.plotsquared.nukkit.generator.NukkitPlotGenerator;
+import com.github.intellectualcrafters.plotsquared.plot.PS;
+import com.github.intellectualcrafters.plotsquared.nukkit.NukkitMain;
+import com.github.intellectualcrafters.plotsquared.nukkit.generator.NukkitPlotGenerator;
 import java.util.Map;
 
 public class NukkitHybridGen extends NukkitPlotGenerator {

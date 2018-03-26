@@ -1,12 +1,12 @@
-package com.plotsquared.sponge.listener;
+package com.github.intellectualcrafters.plotsquared.sponge.listener;
 
 import com.flowpowered.math.vector.Vector3d;
-import com.intellectualcrafters.plot.flag.Flags;
-import com.intellectualcrafters.plot.object.Location;
-import com.intellectualcrafters.plot.object.Plot;
-import com.intellectualcrafters.plot.object.PlotPlayer;
-import com.plotsquared.sponge.object.SpongePlayer;
-import com.plotsquared.sponge.util.SpongeUtil;
+import com.github.intellectualcrafters.plotsquared.plot.flag.Flags;
+import com.github.intellectualcrafters.plotsquared.plot.object.Location;
+import com.github.intellectualcrafters.plotsquared.plot.object.Plot;
+import com.github.intellectualcrafters.plotsquared.plot.object.PlotPlayer;
+import com.github.intellectualcrafters.plotsquared.sponge.object.SpongePlayer;
+import com.github.intellectualcrafters.plotsquared.sponge.util.SpongeUtil;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.UUID;
