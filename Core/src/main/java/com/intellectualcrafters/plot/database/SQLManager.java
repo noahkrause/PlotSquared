@@ -19,6 +19,8 @@ import com.intellectualcrafters.plot.object.comment.PlotComment;
 import com.intellectualcrafters.plot.util.MainUtil;
 import com.intellectualcrafters.plot.util.StringMan;
 import com.intellectualcrafters.plot.util.TaskManager;
+import org.bukkit.Bukkit;
+
 import java.sql.Connection;
 import java.sql.DatabaseMetaData;
 import java.sql.PreparedStatement;
@@ -1011,10 +1013,12 @@ public class SQLManager implements AbstractDB {
     }
 
     public void createPlotSafe(final Plot plot, final Runnable success, final Runnable failure) {
+        Bukkit.getLogger().info("[INSIDE PLOT SAFE IN SQLMANAGER] Adding plot task.");
         final long timestamp = plot.getTimestamp();
         addPlotTask(plot, new UniqueStatement("createPlotSafe_" + plot.hashCode()) {
             @Override
             public void set(PreparedStatement stmt) throws SQLException {
+                Bukkit.getLogger().info("[INSIDE PLOT SAFE IN SQLMANAGER] Setting...");
                 stmt.setInt(1, plot.getId().x);
                 stmt.setInt(2, plot.getId().y);
                 stmt.setString(3, plot.owner.toString());
@@ -1027,33 +1031,44 @@ public class SQLManager implements AbstractDB {
 
             @Override
             public PreparedStatement get() throws SQLException {
+                Bukkit.getLogger().info("[INSIDE PLOT SAFE IN SQLMANAGER] get()...");
                 return SQLManager.this.connection.prepareStatement(SQLManager.this.CREATE_PLOT_SAFE, Statement.RETURN_GENERATED_KEYS );
             }
 
             @Override
             public void execute(PreparedStatement statement) {
+                Bukkit.getLogger().info("[INSIDE PLOT SAFE IN SQLMANAGER] Executing...");
 
             }
 
             @Override
             public void addBatch(PreparedStatement statement) throws SQLException {
+                Bukkit.getLogger().info("[INSIDE PLOT SAFE IN SQLMANAGER] Adding batch...");
                 int inserted = statement.executeUpdate();
                 if (inserted > 0) {
+                    Bukkit.getLogger().info("[INSIDE PLOT SAFE IN SQLMANAGER] inserted > 0...");
                     try (ResultSet keys = statement.getGeneratedKeys()) {
                         if (keys.next()) {
+                            Bukkit.getLogger().info("[INSIDE PLOT SAFE IN SQLMANAGER] Something happened here (1)...");
                             plot.temp = keys.getInt(1);
                             addPlotTask(plot, new UniqueStatement("createPlotAndSettings_settings_" + plot.hashCode()) {
                                 @Override
                                 public void set(PreparedStatement stmt) throws SQLException {
+                                    Bukkit.getLogger().info("[INSIDE PLOT SAFE IN SQLMANAGER] Something happened here (2)...");
                                     stmt.setInt(1, getId(plot));
                                 }
 
                                 @Override
                                 public PreparedStatement get() throws SQLException {
+                                    Bukkit.getLogger().info("[INSIDE PLOT SAFE IN SQLMANAGER] Something happened here (3)...");
                                     return SQLManager.this.connection.prepareStatement("INSERT INTO `" + SQLManager.this.prefix + "plot_settings`(`plot_plot_id`) VALUES(?)");
                                 }
                             });
-                            if (success != null) addNotifyTask(success);
+                            Bukkit.getLogger().info("[INSIDE PLOT SAFE IN SQLMANAGER] Something happened here (3)...");
+                            if (success != null) {
+                                Bukkit.getLogger().info("[INSIDE PLOT SAFE IN SQLMANAGER] Something happened here (4)...");
+                                addNotifyTask(success);
+                            }
                             return;
                         }
                     }

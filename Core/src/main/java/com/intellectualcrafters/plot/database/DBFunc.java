@@ -7,6 +7,7 @@ import com.intellectualcrafters.plot.object.PlotCluster;
 import com.intellectualcrafters.plot.object.PlotId;
 import com.intellectualcrafters.plot.object.RunnableVal;
 import com.intellectualcrafters.plot.object.comment.PlotComment;
+import org.bukkit.Bukkit;
 
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
@@ -127,8 +128,10 @@ public class DBFunc {
     
     public static void createPlotSafe(final Plot plot, final Runnable success, final Runnable failure) {
         if (dbManager == null) {
+            Bukkit.getLogger().info("[IN PLOT SAFE] dbManager is null...");
             return;
         }
+        Bukkit.getLogger().info("[IN PLOT SAFE] Calling plot safe...");
         DBFunc.dbManager.createPlotSafe(plot, success, failure);
     }
     
